@@ -1,0 +1,41 @@
+.project {
+    background: #f6f6f8;
+    padding-top: 100px;
+    padding-bottom: 130px;
+}
+
+.project h2 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 146%;
+    text-align: center;
+    color: #000;
+}
+
+.project p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 158%;
+    text-align: center;
+    color: var(--grey);
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.project button {
+    margin: 0 auto;
+    display: block;
+}
+
+.project__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}

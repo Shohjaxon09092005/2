@@ -1,0 +1,14 @@
+.xyz{
+    height: 600px;
+    overflow-y: scroll;
+}
+.service_card_update,.update_number, .ourUpdate{
+    display: none;
+}
+.open{
+    display: block;
+}
+.service__wrapper,.number_wrapper , .our_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

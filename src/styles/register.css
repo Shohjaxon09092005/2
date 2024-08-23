@@ -1,0 +1,16 @@
+.form__wrapper{
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: aqua;
+}
+.form__wrapper button{
+    width: 100px;
+    border-radius: 10px;
+    margin:  0 auto;
+    display: block;
+}
